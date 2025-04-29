@@ -28,7 +28,7 @@ jobs:
         run: mvn checkstyle:check
 
       - name: JUnit тест ба Coverage шалгана
-        run: mvn test jacoco:check
+        run: mvn verify
 
       - name: Coverage тайлан үүсгэнэ
         run: mvn jacoco:report

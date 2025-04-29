@@ -4,7 +4,7 @@
 
 <module name="Checker">
     <property name="severity" value="error"/>
-    
+
     <module name="LineLength">
         <property name="max" value="120"/>
     </module>
@@ -15,4 +15,5 @@
             <property name="max" value="100"/>
         </module>
     </module>
+
 </module>
